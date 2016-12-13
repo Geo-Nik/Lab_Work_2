@@ -13,12 +13,10 @@
         <li>Check is var2 is False</li>
         <li>Check result for var2 and var1</li>
      </ol>
-          
 </div>
 <h6> Here is its solution code:</h6>
 
-```
-Python
+```Python
 # 1. Create any variable with name var1
 var1=15
 #2. Check type of var1 with type function
