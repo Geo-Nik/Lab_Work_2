@@ -36,4 +36,5 @@ print("max_sequence//rand_float=",floore_div)
 print("\n\t5. 6. Find factorial of the result above\n")
 print("factorial(max_sequence//rand_float)=",math.factorial(floore_div))
 #7. Shorten the code as much as possible
+#7. Shorten the code as much as possible
 
