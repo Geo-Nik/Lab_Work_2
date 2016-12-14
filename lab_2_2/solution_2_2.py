@@ -25,16 +25,16 @@ print("rand_int={},rand_float={}".format(rand_int,rand_float))
 # 4. Find max element from generated sequence
 max_sequence=max(rand_int)
 print("\n\t4. Find max element from generated sequence\n")
-print("max(rand_int)=",max_sequence)
+print("max(rand_int)={}".format(max_sequence))
 
 #5. Make a floor division between max element and generated float
 floore_div=max_sequence//rand_float
 print("\n\t5. Make a floor division between max element and generated float\n")
-print("max_sequence//rand_float=",floore_div)
+print("max_sequence//rand_float={}".format(floore_div))
 
 #6. Find factorial of the result above
 print("\n\t5. 6. Find factorial of the result above\n")
-print("factorial(max_sequence//rand_float)=",math.factorial(floore_div))
+print("factorial(max_sequence//rand_float)={}".format(math.factorial(floore_div)))
 #7. Shorten the code as much as possible
-#7. Shorten the code as much as possible
+
 

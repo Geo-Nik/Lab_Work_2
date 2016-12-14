@@ -1,4 +1,4 @@
-##Braine academy. Python courle. Laboratory №2
+##Braine academy. Python course. Laboratory №2
   
 <b> Laboratory Work #2.1.</b>
 <div>
@@ -7,7 +7,7 @@
         <li>Create any variable with name var1</li>
         <li>Check type of var1 with type function</li>
         <li>Check is var1 is True</li>
-         <li>Check is var1 is False</li>
+        <li>Check is var1 is False</li>
         <li>Create var2 that equal to (var1 or True)</li>
         <li>Check is var2 is True</li>
         <li>Check is var2 is False</li>
@@ -39,14 +39,13 @@ print("var1=",var1,", var2=",var2)
 <div>
 <i>Write the code to do following:</i>
     <ol>
-        <li>Create any variable with name var1</li>
-        <li>Check type of var1 with type function</li>
-        <li>Check is var1 is True</li>
-         <li>Check is var1 is False</li>
-        <li>Create var2 that equal to (var1 or True)</li>
-        <li>Check is var2 is True</li>
-        <li>Check is var2 is False</li>
-        <li>Check result for var2 and var1</li>
+        <li>Generate sequence 5 integers long from range(0, 100)</li>
+        <li>Generate random float</li>
+        <li>Print variables above</li>
+        <li>Find max element from generated sequence</li>
+        <li>Make a floor division between max element and generated float</li>
+        <li>Find factorial of the result above</li>
+        <li>Shorten the code as much as possible</li>
      </ol>
 </div>
 <h6> Here is its solution code:</h6>
