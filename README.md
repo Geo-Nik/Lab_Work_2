@@ -90,3 +90,52 @@ print("\n\t5. 6. Find factorial of the result above\n")
 print("factorial(max_sequence//rand_float)=",math.factorial(floore_div))
 #7. Shorten the code as much as possible
 ```
+
+
+<b> Laboratory Work #2.6.</b>
+<div>
+<i>Write the code to do following:</i>
+    <ol>
+        <li>Write a script that creates a new output file called myfile.txt</li>
+        <li>writes the string "Hello file world!" into it</li>
+        <li>write another code that opens myfile.txt in w+ mode</li>
+        <li>read and print its contents</li>
+        <li>write into “Hello file” string new value “my” – “Hello my file”</li>
+        <li>Save changes without file object close</li>
+    </ol>
+</div>
+<h6> Here is its solution code:</h6>
+
+
+
+
+```Python
+'''
+Write the code to do following:
+1. Write a script that creates a new output file called myfile.txt
+2. writes the string "Hello file world!" into it
+3. write another code that opens myfile.txt in w+ mode
+4. read and print its contents
+5. write into “Hello file” string new value “my” – “Hello my file”
+6. Save changes without file object close
+'''
+
+# 1. Write a script that creates a new output file called myfile.txt
+inp=open('documents\myfile.txt','w')
+
+#2. writes the string "Hello file world!" into it
+inp.write('Hello file world!')
+inp.close()
+
+#3. write another code that opens myfile.txt in w+ mode
+inp=open('documents\myfile.txt','r+')
+
+#4. read and print its contents
+print(inp.read())
+
+
+#5. write into “Hello file” string new value “my” – “Hello my file”
+inp.seek(len('Hello '))
+inp.write('my file')
+inp.flush()
+```
